@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html class="text-monospace">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Untitled</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bitter:400,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700">
+    <link rel="stylesheet" href="assets/css/styles.min.css">
+</head>
+
+<body style="margin: 26px;padding: 14px;background-color: rgb(236,249,237);">
+    <div></div>
+    <div class="table-responsive">
+        <table class="table">
+            <thead>
+                <tr></tr>
+            </thead>
+            <tbody>
+                <tr></tr>
+                <tr></tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="card">
+        <div class="card-body" style="background-color: #e6ebf8;">
+            <h4 class="card-title">CroLSim</h4>
+            <h6 class="text-muted card-subtitle mb-2">Cross Language Software Application Similarity Detector and Code Search</h6>
+            <p class="card-text"></p>
+        </div>
+    </div>
+    <div>
+        <ul class="nav nav-tabs">
+            <li class="nav-item"><a class="nav-link" role="tab" data-toggle="tab" href="#tab-1">Software Upload</a></li>
+            <li class="nav-item"><a class="nav-link" role="tab" data-toggle="tab" href="#tab-2">Search with Tool</a></li>
+            <li class="nav-item"><a class="nav-link" role="tab" data-toggle="tab" href="#tab-3">Search With Code</a></li>
+            <li class="nav-item"><a class="nav-link active" role="tab" data-toggle="tab" href="#tab-4">Search With Term</a></li>
+        </ul>
+        <div class="tab-content">
+            <div class="tab-pane" role="tabpanel" id="tab-1"><p>Please upload your tools here to train and detect software similarity. 
+<br />
+    You can upload software applications in three ways. 
+
+<br />
+    1. You can select the source folder of a software application. It will automatically upload all the source codes of the software application to the server.
+    
+<br />
+    2. You can select multiple software applications at a time. The system will upload source codes of all the software applications automatically by preserving their uniqueness and originality
+    
+<br />
+    3. You can select a folder of having all the software applications together. This system will automatically identify the software application and will upload it to the system keeping their originality and uniqueness.
+</p><label style="margin: 21px;width: 131px;background-color: #ffffff;">Directory Selected</label><input type="text" style="margin: 10px;padding: 2px;width: 350px;"><button class="btn btn-primary btn-sm text-monospace text-break border rounded border-primary flex-fill visible" type="button" disabled style="width: 73px;margin: 2px;padding: 4px;filter: blur(0px);">Search</button>
+                <button
+                    class="btn btn-primary text-monospace text-break border rounded border-primary shadow-lg justify-content-lg-center align-items-lg-start visible" type="button" style="margin: 31px;width: 419px;padding: 0px;background-color: rgb(102,161,252);margin-top: 15px;margin-left: 123px;filter: blur(0px);">Upload Selected Software Applications</button>
+            </div>
+            <div class="tab-pane" role="tabpanel" id="tab-2"><p>To search cross language similar software applications of a specific software application, you first need to upload the software application. After completion of uploading the software application, similar software applications from the repository will
+    be popped up on the designated area. </p><label style="margin: 13px;">Selected Tool</label><input type="search" style="width: 317px;margin: 20px;"><button class="btn btn-primary" type="button" style="margin: 6px;padding: 4px;width: 60px;">Select</button><br />
+<button class="btn btn-primary" type="button" style="margin-left: 177px;">Similar Software Repositories</button>
+                <div
+                    class="table-responsive" style="width: 726px;margin: 30px;">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th style="width: 261px;">Java</th>
+                                <th style="width: 261px;">Python</th>
+                                <th style="width: 261px;height: 41px;">C#</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Cell 1</td>
+                                <td>Cell 2</td>
+                                <td>Cell 2</td>
+                            </tr>
+                            <tr>
+                                <td>Cell 3</td>
+                                <td>Cell 4</td>
+                                <td>Cell 4</td>
+                            </tr>
+                            <tr>
+                                <td>Cell 1</td>
+                                <td>Cell 2</td>
+                                <td>Cell 2</td>
+                            </tr>
+                            <tr>
+                                <td>Cell 1</td>
+                                <td>Cell 2</td>
+                                <td>Cell 2</td>
+                            </tr>
+                            <tr>
+                                <td>Cell 1</td>
+                                <td>Cell 2</td>
+                                <td>Cell 3</td>
+                            </tr>
+                        </tbody>
+                    </table>
+            </div>
+            <div></div>
+        </div>
+        <div class="tab-pane" role="tabpanel" id="tab-3" style="margin-top: 3px;">
+            <p>To search similar code blocks across different programming languages, a user has to paste the code in the text box given below. Once code is given, the system will recommend the best matched codes from the repository. For now, it will recommend
+                code blocks based on the most similar API calls across different programming languages.&nbsp;</p>
+            <div class="row"><div class="col-lg-4" style="margin: 18px;width: 199px;"><label>Paste your Code</label><br /><textarea style="width: 267px;height: 300px;"></textarea><br /><button class="btn btn-primary" type="button">Search</button></div>
+                <div class="col" style="width: 799px;">
+                    <div class="table-responsive" style="width: 594px;">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>Java</th>
+                                    <th>C#</th>
+                                    <th>Python</th>
+                                    <th>C</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td style="width: 120px;"><textarea style="width: 120px;"></textarea></td>
+                                    <td style="width: 140px;"><textarea style="width: 120px;"></textarea></td>
+                                    <td style="width: 138px;"><textarea style="width: 120px;"></textarea></td>
+                                    <td style="width: 140px;"><textarea style="width: 120px;"></textarea></td>
+                                </tr>
+                                <tr>
+                                    <td><textarea style="width: 120px;"></textarea></td>
+                                    <td><textarea style="width: 120px;"></textarea></td>
+                                    <td><textarea style="width: 120px;"></textarea></td>
+                                    <td><textarea style="width: 120px;"></textarea></td>
+                                </tr>
+                                <tr>
+                                    <td><textarea style="width: 120px;"></textarea></td>
+                                    <td><textarea style="width: 120px;"></textarea></td>
+                                    <td><textarea style="width: 120px;"></textarea></td>
+                                    <td><textarea style="width: 120px;"></textarea></td>
+                                </tr>
+                                <tr>
+                                    <td><textarea style="width: 120px;"></textarea></td>
+                                    <td><textarea style="width: 120px;"></textarea></td>
+                                    <td><textarea style="width: 120px;"></textarea></td>
+                                    <td><textarea style="width: 120px;"></textarea></td>
+                                </tr>
+                                <tr>
+                                    <td><textarea style="width: 120px;"></textarea></td>
+                                    <td><textarea style="width: 120px;"></textarea></td>
+                                    <td><textarea style="width: 120px;"></textarea></td>
+                                    <td><textarea style="width: 120px;"></textarea></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane active" role="tabpanel" id="tab-4">
+            <p>To search with software application name, an user needs to put the name in the search section. Once the user put the name, it will send the name to the backend server. And the backend server will execute the query, try to match it with the
+                software applications name in the repository and result it with the best match software applications. Through this way, not only the software application with very related name will popped up, but also the software applications with functional
+                similar source codes will be listed.</p><label style="margin: 20px;">Search Term</label><input class="shadow" type="text"><button class="btn btn-primary border rounded" type="button" style="margin: 5px;margin-left: 28px;">Search</button>
+            <div
+                class="table-responsive" style="width: 700px;margin: 25px;">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Column 1</th>
+                            <th>Column 2</th>
+                            <th>Column 3</th>
+                            <th>Column 4</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Cell 1</td>
+                            <td>Cell 2</td>
+                            <td>Cell 3</td>
+                            <td>Cell 4</td>
+                        </tr>
+                        <tr>
+                            <td>Cell 3</td>
+                            <td>Cell 4</td>
+                            <td>Cell 3</td>
+                            <td>Cell 4</td>
+                        </tr>
+                        <tr>
+                            <td>Cell 1</td>
+                            <td>Cell 2</td>
+                            <td>Cell 3</td>
+                            <td>Cell 4</td>
+                        </tr>
+                        <tr>
+                            <td>Cell 1</td>
+                            <td>Cell 2</td>
+                            <td>Cell 3</td>
+                            <td>Cell 4</td>
+                        </tr>
+                        <tr>
+                            <td>Cell 1</td>
+                            <td>Cell 2</td>
+                            <td>Cell 3</td>
+                            <td>Cell 4</td>
+                        </tr>
+                    </tbody>
+                </table>
+        </div>
+    </div>
+    </div>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/script.min.js"></script>
+</body>
+
+</html>
