@@ -5,10 +5,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Untitled</title>
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{url_for('static', filename = 'bootstrap/css/bootstrap.min.css') }}">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bitter:400,700">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700">
-    <link rel="stylesheet" href="assets/css/styles.min.css">
+    <link rel="stylesheet" href="{{url_for('static', filename = 'css/styles.min.css') }}">
 </head>
 
 <body style="margin: 26px;padding: 14px;background-color: rgb(236,249,237);">
@@ -51,9 +51,15 @@
     
 <br />
     3. You can select a folder of having all the software applications together. This system will automatically identify the software application and will upload it to the system keeping their originality and uniqueness.
-</p><label style="margin: 21px;width: 131px;background-color: #ffffff;">Directory Selected</label><input type="text" style="margin: 10px;padding: 2px;width: 350px;"><button class="btn btn-primary btn-sm text-monospace text-break border rounded border-primary flex-fill visible" type="button" disabled style="width: 73px;margin: 2px;padding: 4px;filter: blur(0px);">Search</button>
+</p>
+            <form method=POST action="/" enctype="multipart/form-data">
+                <label style="margin: 21px;width: 131px;background-color: #ffffff;">Directory Selected</label><input name="text" type="text" readonly="readonly" value={{directory}} style="margin: 10px;padding: 2px;width: 350px;">
+
+                <button class="btn btn-primary btn-sm text-monospace text-break border rounded border-primary flex-fill visible" name="file[]" type="file" multiple="" >Search</button>
                 <button
-                    class="btn btn-primary text-monospace text-break border rounded border-primary shadow-lg justify-content-lg-center align-items-lg-start visible" type="button" style="margin: 31px;width: 419px;padding: 0px;background-color: rgb(102,161,252);margin-top: 15px;margin-left: 123px;filter: blur(0px);">Upload Selected Software Applications</button>
+                    class="btn btn-primary text-monospace text-break border rounded border-primary shadow-lg justify-content-lg-center align-items-lg-start visible" name="button" type="submit" value="Search" style="margin: 31px;width: 419px;padding: 0px;background-color: rgb(102,161,252);margin-top: 15px;margin-left: 123px;filter: blur(0px);">Upload Selected Software Applications</button>
+            </form>
+
             </div>
             <div class="tab-pane" role="tabpanel" id="tab-2"><p>To search cross language similar software applications of a specific software application, you first need to upload the software application. After completion of uploading the software application, similar software applications from the repository will
     be popped up on the designated area. </p><label style="margin: 13px;">Selected Tool</label><input type="search" style="width: 317px;margin: 20px;"><button class="btn btn-primary" type="button" style="margin: 6px;padding: 4px;width: 60px;">Select</button><br />
@@ -203,9 +209,10 @@
     </div>
     </div>
     </div>
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="assets/js/script.min.js"></script>
+
+    <script src="{{url_for('static', filename='js/jquery.min.js') }}"></script>
+    <script src="{{url_for('static', filename='bootstrap/js/bootstrap.min.js') }}"></script>
+    <script src="{{url_for('static', filename='js/script.min.js') }}"></script>
 </body>
 
 </html>

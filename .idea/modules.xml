@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/CroLSim.iml" filepath="$PROJECT_DIR$/.idea/CroLSim.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Phd_Paper_2/CroPSim_FISSAR_development/.idea/CroPSim_FISSAR_development.iml" filepath="$PROJECT_DIR$/../Phd_Paper_2/CroPSim_FISSAR_development/.idea/CroPSim_FISSAR_development.iml" />
     </modules>
   </component>
 </project>
