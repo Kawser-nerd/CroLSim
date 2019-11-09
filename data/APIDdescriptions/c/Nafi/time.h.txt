@@ -1,0 +1,26 @@
+*asctime()
+Returns a pointer to a string which represents the day and time of the structure timeptr.
+
+clock()
+Returns the processor clock time used since the beginning of an implementation defined era (normally the beginning of the program).
+
+*ctime()
+Returns a string representing the localtime based on the argument timer.
+
+difftime()
+Returns the difference of seconds between time1 and time2 (time1-time2).
+
+*gmtime()
+The value of timer is broken up into the structure tm and expressed in Coordinated Universal Time (UTC) also known as Greenwich Mean Time (GMT).
+
+*localtime()
+The value of timer is broken up into the structure tm and expressed in the local time zone.
+
+mktime()
+Converts the structure pointed to by timeptr into a time_t value according to the local time zone.
+
+strftime()
+Formats the time represented in the structure timeptr according to the formatting rules defined in format and stored into str.
+
+time()
+Calculates the current calender time and encodes it into time_t format.

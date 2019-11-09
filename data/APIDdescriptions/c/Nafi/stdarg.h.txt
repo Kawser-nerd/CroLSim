@@ -1,0 +1,8 @@
+va_start()
+This macro initializes ap variable to be used with the va_arg and va_end macros. 
+
+va_arg()
+This macro retrieves the next argument in the parameter list of the function with type type.
+
+va_end()
+This macro allows a function with variable arguments which used the va_start macro to return. 

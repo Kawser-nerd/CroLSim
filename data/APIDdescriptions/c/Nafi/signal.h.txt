@@ -1,0 +1,5 @@
+(*signal())()
+This function sets a function to handle signal i.e. a signal handler.
+
+raise()
+This function causes signal sig to be generated. 

@@ -1,0 +1,5 @@
+*setlocale()
+Sets or reads location dependent information.
+
+*localeconv()
+Sets or reads location dependent information.

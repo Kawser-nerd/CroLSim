@@ -1,0 +1,2 @@
+assert()
+This can be used to add diagnostics in your C program.

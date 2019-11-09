@@ -1,0 +1,5 @@
+setjmp()
+This macro saves the current environment into the variable environment for later use by the function longjmp(). 
+
+longjmp()
+This function restores the environment saved by the most recent call to setjmp() macro in the same invocation of the program with the corresponding jmp_buf argument.

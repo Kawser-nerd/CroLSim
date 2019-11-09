@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type">
+    <title>Software Similarity</title>
+  </head>
+  <body>
+    <table style="width: 1257px; height: 788px;" border="1">
+      <tbody>
+        <tr>
+          <td style="width: 315px; height:140px;">
+            <div class="1st_cell" id="1st_cell"><br>
+            </div>
+            <br>
+          </td>
+          <td id="middle_section" class="middle_section" colspan="1" rowspan="2"
+            style="width: 638px; height:140px; text-align:center">
+            <div style=" width:630px; margin:0 auto;" id="middle_sectoion"> <input
+                form="main" maxlength="200" value="insert location" name="location"
+                type="text">&nbsp;&nbsp; <button height="60px" type="submit" value="Submit"
+                name="Submit">Submit</button> </div>
+            <br>
+            <textarea form="main" rows="20" cols="40" name="output"></textarea><br>
+          </td>
+          <td style="width: 315px; height:140px;"><br>
+          </td>
+        </tr>
+        <tr>
+          <td style="width: 315px; height:440px;"><br>
+          </td>
+          <td style="width: 315px; height:440px"><br>
+          </td>
+        </tr>
+        <tr>
+          <td style="width: 315px; height:140px;"><br>
+          </td>
+          <td style="width: 638px; height:140px"><br>
+          </td>
+          <td style="width: 315px; height:140px"><br>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <p><br>
+    </p>
+  </body>
+</html>

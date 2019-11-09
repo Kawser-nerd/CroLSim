@@ -1,0 +1,2 @@
+offsetof()
+This results in a constant integer of type size_t which is the offset in bytes of a structure member from the beginning of the structure.

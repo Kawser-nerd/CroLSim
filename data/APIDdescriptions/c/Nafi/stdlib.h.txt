@@ -1,0 +1,83 @@
+atof()
+Converts the string pointed to, by the argument str to a floating-point number (type double).
+
+atoi()
+Converts the string pointed to, by the argument str to an integer (type int).
+
+atol()
+Converts the string pointed to, by the argument str to a long integer (type long int).
+
+strtod()
+Converts the string pointed to, by the argument str to a floating-point number (type double).
+
+strtol()
+Converts the string pointed to, by the argument str to a long integer (type long int).
+
+strtoul()
+Converts the string pointed to, by the argument str to an unsigned long integer (type unsigned long int).
+
+*calloc()
+Allocates the requested memory and returns a pointer to it.
+
+free()
+Deallocates the memory previously allocated by a call to calloc, malloc, or realloc.
+
+*malloc()
+Allocates the requested memory and returns a pointer to it.
+
+*realloc()
+Attempts to resize the memory block pointed to by ptr that was previously allocated with a call to malloc or calloc.
+
+abort()
+Causes an abnormal program termination.
+
+atexit()
+Causes the specified function func to be called when the program terminates normally.
+
+exit()
+Causes the program to terminate normally.
+
+*getenv()
+Searches for the environment string pointed to by name and returns the associated value to the string.
+
+system()
+The command specified by string is passed to the host environment to be executed by the command processor.
+
+*bsearch()
+Performs a binary search.
+
+qsort()
+Sorts an array.
+
+abs()
+Returns the absolute value of x.
+
+div()
+Divides numer (numerator) by denom (denominator).
+
+labs()
+Returns the absolute value of x.
+
+ldiv()
+Divides numer (numerator) by denom (denominator).
+
+rand()
+Returns a pseudo-random number in the range of 0 to RAND_MAX.
+
+srand()
+This function seeds the random number generator used by the function rand.
+
+mblen()
+Returns the length of a multibyte character pointed to by the argument str.
+
+mbstowcs()
+Converts the string of multibyte characters pointed to by the argument str to the array pointed to by pwcs.
+
+mbtowc()
+Examines the multibyte character pointed to by the argument str.
+
+wcstombs()
+Converts the codes stored in the array pwcs to multibyte characters and stores them in the string str.
+
+wctomb()
+Examines the code which corresponds to a multibyte character given by the argument wchar.

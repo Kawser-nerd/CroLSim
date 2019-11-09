@@ -1,0 +1,40 @@
+isalnum()
+This function checks whether the passed character is alphanumeric.
+
+isalpha()
+This function checks whether the passed character is alphabetic.
+
+iscntrl()
+This function checks whether the passed character is control character.
+
+isdigit()
+This function checks whether the passed character is decimal digit.
+
+isgraph()
+This function checks whether the passed character has graphical representation using locale.
+
+islower()
+This function checks whether the passed character is lowercase letter.
+
+isprint()
+This function checks whether the passed character is printable.
+
+ispunct()
+This function checks whether the passed character is a punctuation character.
+
+isspace()
+This function checks whether the passed character is white-space.
+
+isupper()
+This function checks whether the passed character is an uppercase letter.
+
+isxdigit()
+This function checks whether the passed character is a hexadecimal digit.
+
+The library also contains two conversion functions that accepts and returns an "int".
+
+tolower()
+This function converts uppercase letters to lowercase.
+
+toupper()
+This function converts lowercase letters to uppercase.

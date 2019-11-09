@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type">
+    <title>Software Similarity</title>
+  </head>
+  <body>
+    <table style="width: 1257px; height: 788px;" border="1">
+      <tbody>
+        <tr>
+          <td style="width: 315px; height:140px;">
+            <div class="1st_cell" id="1st_cell"><br>
+                a
+            </div>
+            <br>
+          </td>
+          <td id="middle_section" class="middle_section" colspan="1" rowspan="2"
+            style="width: 638px; height:140px; text-align:center">
+            <div style="position:absolute; top:0;"><h2>Software Similarity Detector Implementation</h2></div>
+            <div style=" width:630px; margin:0 auto;" id="middle_sectoion">
+                    <form method=POST action="/" enctype="multipart/form-data">
+                        <h1>MUDABLUE</h1>
+                        <button  type="submit" value="MudaJoin" name="button">Join</button>
+                        &nbsp;&nbsp;
+                        <button type="submit" value="MudaTDM" name="button">TDM</button>
+                        &nbsp;&nbsp;
+                        <button type="submit" value="MudaLSA" name="button">LSA</button>
+                        &nbsp;&nbsp;
+                        <button type="submit" value="MudaCosineSimilarity" name="button">CosSim</button>
+                        &nbsp;&nbsp;
+                        <button  type="submit" value="MudaVectorAnalysis" name="button">VSpaceA</button>
+                        &nbsp;&nbsp;
+                        <button  type="submit" value="MudaLDA" name="button">LDA</button>
+                        &nbsp;&nbsp;
+                        <button  type="submit" value="Lda2Vec" name="button">LDA_2_VEC</button>
+                    </form>
+                    <form method=POST action="/" enctype="multipart/form-data">
+                        <h1>CLAN</h1>
+                        <button  type="submit" value="CLAN_Metadata" name="button">MetaData</button>
+                        &nbsp;&nbsp;
+                        <button type="submit" value="CLAN_TDM" name="button">TDM</button>
+                        &nbsp;&nbsp;
+                        <button type="submit" value="CLAN_LSI" name="button">LSI</button>
+                        &nbsp;&nbsp;
+                        <button type="submit" value="CLAN_Cosine Similarity" name="button">Similarity Matrix</button>
+                        &nbsp;&nbsp;
+                        <button type="submit" value="CLAN_Similarity Analysis" name="button">Similarity</button>
+                        <br>
+                    </form>
+                    <form method=POST action="/" enctype="multipart/form-data">
+                        <h1>CroPSim</h1>
+                        <button  type="submit" value="CropSim_data" name="button">Data</button>
+                        &nbsp;&nbsp;
+                        <button type="submit" value="CropSim_Prep" name="button">PreProcessing</button>
+                        &nbsp;&nbsp;
+                        <button type="submit" value="CroPSim_LDA" name="button">LDA</button>
+                        &nbsp;&nbsp;
+                        <button type="submit" value="CLAN_Cosine Similarity" name="button">Lda2Vec</button>
+                        <br>
+                    </form>
+            </div>
+            <br>
+              <form method=GET>
+                  <br>
+                  {{form.result(rows='10',cols='50')}}
+              </form>
+          </td>
+          <td style="width: 315px; height:140px;"><br>
+              b
+          </td>
+        </tr>
+        <tr>
+          <td style="width: 315px; height:440px;"><br>
+              <div style = "margin:0 auto; ">
+                <form method="post" action="/" enctype="multipart/form-data">
+                    <h4>Project Selection</h4>
+                        {{ form.project_names.label }} &nbsp;&nbsp; {{ form.project_names }}
+                    <br>
+                    <br>
+                    <h4>Project Upload</h4>
+                        <input type='file' name='file[]' multiple="">
+                            <br>
+                            <br>
+                            {{ form.project.label }} &nbsp;&nbsp; {{ form.project }}
+                            <br>
+                            <br> &nbsp;&nbsp;
+                            <button type="submit" value="Upload" name="button">Upload</button>
+                </form>
+              </div>
+          </td>
+          <td style="width: 315px; height:440px"><br>
+              d
+          </td>
+        </tr>
+        <tr>
+          <td style="width: 315px; height:140px;"><br>
+          </td>
+          <td style="width: 638px; height:140px"><br>
+          </td>
+          <td style="width: 315px; height:140px"><br>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <p><br>
+    </p>
+  </body>
+</html>

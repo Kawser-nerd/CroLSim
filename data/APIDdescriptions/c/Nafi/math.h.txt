@@ -1,0 +1,62 @@
+acos()
+Returns the arc cosine of x in radians.
+
+asin()
+Returns the arc sine of x in radians.
+
+atan()
+Returns the arc tangent of x in radians.
+
+atan2()
+Returns the arc tangent in radians of y/x based on the signs of both values to determine the correct quadrant.
+
+cos()
+Returns the cosine of a radian angle x.
+
+cosh()
+Returns the hyperbolic cosine of x.
+
+sin()
+Returns the sine of a radian angle x.
+
+sinh()
+Returns the hyperbolic sine of x.
+
+tanh()
+Returns the hyperbolic tangent of x.
+
+exp()
+Returns the value of e raised to the xth power.
+
+frexp()
+The returned value is the mantissa and the integer pointed to by exponent is the exponent. 
+
+ldexp()
+Returns x multiplied by 2 raised to the power of exponent.
+
+log()
+Returns the natural logarithm (base-e logarithm) of x.
+
+log10()
+Returns the common logarithm (base-10 logarithm) of x.
+
+modf()
+The returned value is the fraction component (part after the decimal), and sets integer to the integer component.
+
+pow()
+Returns x raised to the power of y.
+
+sqrt()
+Returns the square root of x.
+
+ceil()
+Returns the smallest integer value greater than or equal to x.
+
+fabs()
+Returns the absolute value of x.
+
+floor()
+Returns the largest integer value less than or equal to x.
+
+fmod()
+Returns the remainder of x divided by y.

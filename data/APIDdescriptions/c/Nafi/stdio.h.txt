@@ -1,0 +1,122 @@
+fclose()
+Closes the stream. 
+
+clearerr()
+Clears the end-of-file and error indicators for the given stream.
+
+feof()
+Tests the end-of-file indicator for the given stream.
+
+ferror()
+Tests the error indicator for the given stream.
+
+fflush()
+Flushes the output buffer of a stream.
+
+fgetpos()
+Gets the current file position of the stream and writes it to pos.
+
+*fopen()
+Opens the filename pointed to by filename using the given mode.
+
+fread()
+Reads data from the given stream into the array pointed to by ptr.
+
+*freopen()
+Associates a new filename with the given open stream and same time closing the old file in stream.
+
+fseek()
+Sets the file position of the stream to the given offset. 
+
+fsetpos()
+Sets the file position of the given stream to the given position. 
+
+ftell()
+Returns the current file position of the given stream.
+
+fwrite()
+Writes data from the array pointed to by ptr to the given stream.
+
+remove()
+Deletes the given filename so that it is no longer accessible.
+
+rename()
+Causes the filename referred to, by old_filename to be changed to new_filename.
+
+rewind()
+Sets the file position to the beginning of the file of the given stream.
+
+setbuf()
+Defines how a stream should be buffered.
+
+setvbuf()
+Another function to define how a stream should be buffered.
+
+*tmpfile()
+Creates a temporary file in binary update mode (wb+).
+
+*tmpnam()
+Generates and returns a valid temporary filename which does not exist.
+
+fprintf()
+Sends formatted output to a stream.
+
+printf()
+Sends formatted output to stdout.
+
+sprintf()
+Sends formatted output to a string.
+
+vfprintf()
+Sends formatted output to a stream using an argument list.
+
+vprintf()
+Sends formatted output to stdout using an argument list.
+
+vsprintf()
+Sends formatted output to a string using an argument list.
+
+fscanf()
+Reads formatted input from a stream.
+
+scanf()
+Reads formatted input from stdin.
+
+sscanf()
+Reads formatted input from a string.
+
+fgetc()
+Gets the next character (an unsigned char) from the specified stream and advances the position indicator for the stream.
+
+*fgets()
+Reads a line from the specified stream and stores it into the string pointed to by str.
+
+fputc()
+Writes a character (an unsigned char) specified by the argument char to the specified stream and advances the position indicator for the stream.
+
+fputs()
+Writes a string to the specified stream up to but not including the null character.
+
+getc()
+Gets the next character (an unsigned char) from the specified stream and advances the position indicator for the stream.
+
+getchar()
+Gets a character (an unsigned char) from stdin.
+
+*gets()
+Reads a line from stdin and stores it into the string pointed to by, str. It stops when either the newline character is read or when the end-of-file is reached, whichever comes first.
+
+putc()
+Writes a character (an unsigned char) specified by the argument char to the specified stream and advances the position indicator for the stream.
+
+putchar()
+Writes a character (an unsigned char) specified by the argument char to stdout.
+
+puts()
+Writes a string to stdout up to but not including the null character.
+
+ungetc()
+Pushes the character char (an unsigned char) onto the specified stream so that the next character is read.
+
+perror()
+Prints a descriptive error message to stderr. 
